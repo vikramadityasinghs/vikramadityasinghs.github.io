@@ -1,0 +1,49 @@
+body{
+
+
+
+text-align: center;
+  margin: 0;
+font-family: 'Merriweather',sans-serif;
+  }
+
+h1{
+font-size: 90px;
+color:white;
+  margin-top: 0;
+  font-family: 'Sacramento',cursive;
+}
+.top-container
+{
+  background-color: #bbe1fa;
+  padding-top: 100px;
+  position: relative;
+}
+.profile-photo
+{
+  height:300px;
+  width: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 420px;
+  right:900px;
+}
+.top-cloud{
+  position: absolute;
+  right:450px;
+  top: 50px;
+}
+.icon{
+  height: 300px;
+  width: 300px;
+}
+.footer
+{
+background-color: black;
+
+}
+
+.skilltable{
+  font-size: 4000px;
+}
