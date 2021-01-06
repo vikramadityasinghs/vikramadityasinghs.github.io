@@ -52,7 +52,7 @@ background-color: black;
 
 .section h1 {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 9rem;
   font-family: "Cookie";
   padding: 20px;
@@ -126,3 +126,8 @@ background-color: black;
   margin: 1rem;
 }
 a.footer-link:hover,a.footer-link:active {font-size: 150%;}
+
+.section h1{
+  position: relative;
+  padding-top: 20rem;
+}
