@@ -9,9 +9,9 @@ font-family: 'Merriweather',sans-serif;
 
 h1{
 font-size: 90px;
-color:white;
-  margin-top: 0;
-  font-family: 'Sacramento',cursive;
+color:grey;
+
+  
 }
 /* .top-container
 {
@@ -22,7 +22,7 @@ color:white;
 } */
 .profile-photo
 {
-  padding-top: 2rem;
+  margin-top: 8rem;
   height:300px;
   width: 300px;
 }
@@ -52,6 +52,7 @@ background-color: black;
 
 .section h1 {
   text-align: center;
+  color: white;
   font-size: 9rem;
   font-family: "Cookie";
   padding: 20px;
@@ -81,6 +82,47 @@ background-color: black;
   background-color:white;
   opacity: 0.8;
 }
-.row{
-  align-items: center;
+* {box-sizing: border-box}
+
+.container {
+  
+  width: 50%;
+  padding-left: 0%;
+  background-color: #ddd;
 }
+
+.abilty {
+  background-color: turquoise;
+
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  
+}
+
+.html {width: 90%;
+   background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+.spacer{
+  height: 4rem;
+  width: 100vw;
+}
+.contact-me{
+  font-size:5rem ;
+}
+.textsize
+{
+  font-size: 2rem;
+}
+.bottom-container{
+  font-size: 3rem;
+
+}
+.footer-link{
+  margin: 1rem;
+}
+a.footer-link:hover,a.footer-link:active {font-size: 150%;}
