@@ -140,4 +140,21 @@ color: #fff;
   width:40rem;
   align-self: center;
   background-color: black;
+}.carousel-indicators li {
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  margin: 8px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  
+  background-color: black;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+  width: 20px;
+  height: 4px;
+  margin: 5px;
+  background-color:yellow;
 }
