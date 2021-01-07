@@ -1,10 +1,8 @@
 body{
-
-
-
 text-align: center;
   margin: 0;
 font-family: 'Merriweather',sans-serif;
+font-size: 2rem;
   }
 
 h1{
@@ -13,13 +11,7 @@ color:grey;
 
   
 }
-/* .top-container
-{
-  background-image:url("https://wallpaperaccess.com/full/2009157.jpg");
 
-  position: relative;
-  height: 100vh;
-} */
 .profile-photo
 {
   margin-top: 8rem;
@@ -130,4 +122,22 @@ a.footer-link:hover,a.footer-link:active {font-size: 150%;}
 .section h1{
   position: relative;
   padding-top: 20rem;
+}
+.testimonials
+{
+
+text-align: center;
+background-color:#ef8172;
+color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  height: 20rem;
+  width:40rem;
+  align-self: center;
+  background-color: black;
 }
