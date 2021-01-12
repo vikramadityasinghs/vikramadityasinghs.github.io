@@ -117,9 +117,14 @@ background-color: black;
 
 }
 .footer-link{
+  
   margin: 1rem;
 }
-a.footer-link:hover,a.footer-link:active {font-size: 150%;}
+a.footer-link:hover {
+  color: #101010;
+  text-shadow: 0 0.015em #101010,0 -0.015em #101010,0.01em 0 #101010,-0.01em 0 #101010;
+}
+
 
 .section h1{
   position: relative;
@@ -157,4 +162,8 @@ a.footer-link:hover,a.footer-link:active {font-size: 150%;}
   background-image:none !important;
   filter:none !important;
   color: black;
+}
+.fab
+{
+  justify-content: space-between;
 }
